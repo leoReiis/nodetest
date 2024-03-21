@@ -28,7 +28,7 @@ export class DatabaseMemory {
     this.#videos.set(id, video)
    }
 
-   delete(){
+   delete(id){
     this.#videos.delete(id)
    }
 }
